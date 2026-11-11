@@ -2,7 +2,7 @@ import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { RootState } from '../../store';
 import { setSelectedCustomer } from '../../store/slices/customersSlice';
-import { Building2, Mail, Phone, MapPin, Calendar, Award, Tag } from 'lucide-react';
+import { Mail, Phone, MapPin, Calendar, Tag } from 'lucide-react';
 
 export const CustomersView: React.FC = () => {
   const dispatch = useDispatch();
